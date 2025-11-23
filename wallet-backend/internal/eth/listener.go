@@ -2,14 +2,12 @@ package eth
 
 import (
 	"context"
+	"github.com/ethereum/go-ethereum/core/types"
 	"log"
 	"math/big"
 	"time"
 	"wallet-backend/internal/model"
 	"wallet-backend/internal/repository"
-
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
 )
 
 type Listener struct {
